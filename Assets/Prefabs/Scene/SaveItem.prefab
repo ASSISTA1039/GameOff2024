@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8836822735115318584
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3540208982041484905}
+  - component: {fileID: 1904145923454519776}
+  m_Layer: 0
+  m_Name: SaveItem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3540208982041484905
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8836822735115318584}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -176.45421, y: -3.7444496, z: -13.364497}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1904145923454519776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8836822735115318584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1a4bcbe9a2215c438c6de7c944ab822, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myevent:
+  - {fileID: 11400000, guid: 8c3dc14586aaf0a459acad7721d6728b, type: 2}
+  - {fileID: 11400000, guid: e3ef5d0742d9e5c4aae4ed50331bd24d, type: 2}
+  - {fileID: 11400000, guid: ef4ef2fc751bdda41a2eac8e1be8810a, type: 2}
+  - {fileID: 11400000, guid: b76202fc670f4874d950c973f9c7e3a7, type: 2}
+  - {fileID: 11400000, guid: 9bf388bac392aea4a866212ba12133b3, type: 2}
+  - {fileID: 11400000, guid: a5fa9c36f61388b42b9c3091c9d886f6, type: 2}
+  - {fileID: 11400000, guid: 0b776cc6c782fa64d91fda7e2ea70616, type: 2}
+  - {fileID: 11400000, guid: 0b776cc6c782fa64d91fda7e2ea70616, type: 2}
+  - {fileID: 11400000, guid: 228152181e45c854996f993c90788375, type: 2}
+  action:
+    m_PersistentCalls:
+      m_Calls: []
